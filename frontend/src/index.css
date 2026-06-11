@@ -1,0 +1,32 @@
+:root {
+  /* Paleta e-Auditoria */
+  --primary: #1565c0;
+  --primary-hover: #1e88e5;
+  --accent: #00acc1;
+  --dark: #0d1b2a;
+  --success: #2e7d32;
+  --warning: #f57f17;
+  --danger: #c62828;
+  --surface: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Destaque de linha para obrigações atrasadas no calendário */
+.row-atrasada > td {
+  background: #fff3f3;
+}

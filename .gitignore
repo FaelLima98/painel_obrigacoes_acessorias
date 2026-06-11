@@ -1,0 +1,20 @@
+# Ambiente
+.env
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Node / frontend
+node_modules/
+dist/
+
+# Claude
+.claude/settings.local.json
+
+# Logs / SO
+*.log
+.DS_Store
+Thumbs.db
