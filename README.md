@@ -257,7 +257,7 @@ O backend cruza esse resultado com as `Entregas` para definir o status final.
 | Imunidade/Isenção — quais obrigações? | Nenhuma (regime isento por definição) |
 | eSocial para Imunidade? | Não incluído (conservador) |
 | Semântica do `year` nas obrigações anuais | O `year` é o **exercício**; o vencimento cai no ano seguinte. Ex.: `Calculate(LucroReal, 2024, 1)` → SPED ECD vence 31/05/2025. Anuais só são emitidas quando `month == 1`. |
-| Prorrogação de fim de semana | Aplicada **apenas às obrigações mensais** (sáb/dom → próximo dia útil). As datas legais fixas das anuais **não** são prorrogadas (ex.: SPED ECD em 31/05/2025, um sábado, permanece). Feriados não são considerados. |
+| Prorrogação de fim de semana | Aplicada **apenas à obrigação DAS** (sáb/dom → próximo dia útil). As demais datas legais fixas das anuais e mensais **não** são prorrogadas (ex.: SPED ECD em 31/05/2025, um sábado, permanece). Feriados não são considerados. |
 | CNPJ — validar dígito verificador? | Sim — validado no backend (`POST /api/companies` → 400); a máscara/validação client-side no formulário fica para o frontend |
 | Feriados nacionais no cálculo de dias úteis? | Não — apenas fim de semana, conforme o case |
 
