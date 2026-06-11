@@ -28,10 +28,7 @@ resultado da engine com as entregas registradas.
 Pré-requisito: Docker + Docker Compose.
 
 ```bash
-# 1. Copie o arquivo de ambiente
-cp .env.example .env
-
-# 2. Suba os três serviços
+# 1. Suba os três serviços
 docker compose up --build
 ```
 
