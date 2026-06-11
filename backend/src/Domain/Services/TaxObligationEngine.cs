@@ -79,8 +79,8 @@ public class TaxObligationEngine
 
             var vencimento = CalculateVencimento(tipo, year, month);
 
-            // Prorrogação de fim de semana aplica-se apenas às obrigações mensais.
-            if (periodicidade == Periodicidade.Mensal)
+            // Prorrogação de fim de semana aplica-se apenas ao DAS.
+            if (tipo == TipoObrigacao.DAS)
                 vencimento = ProximoDiaUtil(vencimento);
 
             yield return new ObrigacaoCalculada(tipo, periodicidade, year, month, vencimento);
