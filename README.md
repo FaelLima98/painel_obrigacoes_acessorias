@@ -218,7 +218,7 @@ Obrigações **anuais aparecem apenas na competência de janeiro**.
 
 | Obrigação         | Prazo |
 |-------------------|-------|
-| DAS               | Dia 20 do mês seguinte |
+| DAS               | Dia 20 do mês seguinte (se cair no fim de semana, prorroga para o próximo dia útil) |
 | DCTF              | Dia 15 do **segundo** mês seguinte |
 | EFD-ICMS/IPI      | Dia 15 do mês seguinte |
 | EFD Contribuições | Dia 15 do mês seguinte |
